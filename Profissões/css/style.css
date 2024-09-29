@@ -1,0 +1,68 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(44, 120, 139, 0.877);
+  }
+  
+  .container{
+    display: flex; /*O Flex significa que tudo que tiver dentro, pode estar em qualquer lugar*/
+    flex-wrap: wrap;
+    justify-content: center; /*faz deixar espaços entre as divs*/
+    margin-top: 20px;
+    
+  }
+  
+  .profissoes{
+    text-align: center;
+    margin: 10px; /*margem de uma pra outra*/
+    background-color: rgb(83, 162, 199); /*cor do fundo da div*/
+    border: 3px inset rgb(28, 0, 151);
+    color: rgb(250, 250, 250); 
+    border-radius: 20px; /*arrendondamento da borda*/
+    padding: 9px; /*espaço interno*/
+    box-shadow: 20px 5px 20px rgba(44, 120, 139, 0.877);
+  }
+  
+  h1{
+    text-align: center;
+    color: rgb(83, 162, 199);
+  }
+    
+  a{
+    text-decoration: none;
+  }
+  
+  .configuracao{
+    text-align: center;
+    color: rgb(253, 253, 253);
+  }
+  
+  .borda{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+    padding: 1px;
+    border: 3px inset rgb(28, 0, 151);
+    border-radius: 20px;
+    box-shadow: 20px 5px 20px rgb(44, 120, 139, 0.877);
+    justify-content: space-around;
+  }
+  
+  .imagem{
+    margin: -40px;
+    padding: 20px;
+    margin-top: 5px;
+  }
+
+  .img{
+    margin: 250px;
+    padding: 20px;
+    margin-top: 5px;
+  }
+
+  .img2{
+    margin: 200px;
+    padding: 20px;
+    margin-top: 5px;
+  }
